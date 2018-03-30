@@ -1,0 +1,24 @@
+.mejs_player .mejs__controls {
+    background: rgb(255, 176, 50) !important;
+}
+
+p {
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+span {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    main {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 0;
+    }
+}
